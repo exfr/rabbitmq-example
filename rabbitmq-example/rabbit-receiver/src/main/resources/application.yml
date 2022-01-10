@@ -1,0 +1,10 @@
+server:
+  port: 8091
+spring:
+  application:
+    name: rabbitmq-receiver-shops
+  rabbitmq:
+    host: 192.168.10.197
+    port: '5672'
+    username: ${RBT_UNAME:admin}
+    password: ${RBT_PWD:admin}
